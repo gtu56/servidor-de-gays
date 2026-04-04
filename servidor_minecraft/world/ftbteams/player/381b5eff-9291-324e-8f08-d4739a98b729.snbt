@@ -1,0 +1,17 @@
+{
+	id: "381b5eff-9291-324e-8f08-d4739a98b729"
+	type: "player"
+	player_name: "ihlak"
+	ranks: {
+		381b5eff-9291-324e-8f08-d4739a98b729: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "ihlak"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59D7FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

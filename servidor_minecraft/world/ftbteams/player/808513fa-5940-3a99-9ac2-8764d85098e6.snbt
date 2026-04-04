@@ -1,0 +1,17 @@
+{
+	id: "808513fa-5940-3a99-9ac2-8764d85098e6"
+	type: "player"
+	player_name: "Juanfe"
+	ranks: {
+		808513fa-5940-3a99-9ac2-8764d85098e6: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Juanfe"
+		"ftbteams:description": ""
+		"ftbteams:color": "#5969FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

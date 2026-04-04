@@ -1,0 +1,568 @@
+[04Apr2026 03:34:55.631] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Apr2026 03:34:55.636] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[04Apr2026 03:34:56.711] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Apr2026 03:34:56.769] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidor-de-gays/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Apr2026 03:34:57.126] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-de-gays/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Apr2026 03:34:57.129] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-de-gays/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Apr2026 03:34:57.130] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-de-gays/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Apr2026 03:34:57.132] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidor-de-gays/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Apr2026 03:34:57.329] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[04Apr2026 03:34:59.486] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Apr2026 03:34:59.635] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Apr2026 03:34:59.695] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 03:34:59.820] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 03:34:59.871] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Apr2026 03:35:00.611] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/supplementaries/common/entities/SlimeBallEntity (java.lang.ClassNotFoundException: net.mehvahdjukaar.supplementaries.common.entities.SlimeBallEntity)
+[04Apr2026 03:35:01.986] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04Apr2026 03:35:08.777] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[04Apr2026 03:35:09.442] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[04Apr2026 03:35:09.463] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[04Apr2026 03:35:09.547] [modloading-worker-0/INFO] [Collective/]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[04Apr2026 03:35:09.713] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[04Apr2026 03:35:09.818] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Apr2026 03:35:09.819] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Apr2026 03:35:10.644] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[04Apr2026 03:35:10.680] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[04Apr2026 03:35:10.824] [modloading-worker-0/INFO] [Spartan Weaponry/]: Constructing Mod: Spartan Weaponry
+[04Apr2026 03:35:10.825] [modloading-worker-0/INFO] [Spartan Weaponry/]: Initialising API! Version: 12
+[04Apr2026 03:35:10.828] [modloading-worker-0/INFO] [Spartan Weaponry/]: Spartan Weaponry API version 12 has been initalized!
+[04Apr2026 03:35:11.072] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Apr2026 03:35:11.073] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[04Apr2026 03:35:11.095] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[04Apr2026 03:35:11.101] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[04Apr2026 03:35:11.104] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[04Apr2026 03:35:11.111] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[04Apr2026 03:35:11.112] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[04Apr2026 03:35:11.128] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[04Apr2026 03:35:11.264] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[04Apr2026 03:35:11.266] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[04Apr2026 03:35:11.268] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[04Apr2026 03:35:11.280] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[04Apr2026 03:35:11.281] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[04Apr2026 03:35:11.291] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[04Apr2026 03:35:11.292] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[04Apr2026 03:35:11.293] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[04Apr2026 03:35:11.294] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[04Apr2026 03:35:11.297] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[04Apr2026 03:35:11.307] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[04Apr2026 03:35:11.311] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:give_item_to_player
+[04Apr2026 03:35:11.313] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:reorder_item
+[04Apr2026 03:35:11.315] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[04Apr2026 03:35:11.320] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[04Apr2026 03:35:11.322] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[04Apr2026 03:35:11.324] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[04Apr2026 03:35:11.326] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[04Apr2026 03:35:11.330] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[04Apr2026 03:35:11.334] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[04Apr2026 03:35:11.342] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[04Apr2026 03:35:11.346] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[04Apr2026 03:35:11.349] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[04Apr2026 03:35:11.361] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[04Apr2026 03:35:11.362] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[04Apr2026 03:35:11.365] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[04Apr2026 03:35:13.555] [main/INFO] [Moonlight/]: Initialized block sets in 16ms
+[04Apr2026 03:35:14.427] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[04Apr2026 03:35:14.557] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[04Apr2026 03:35:14.572] [main/INFO] [Spartan Weaponry/]: Updating config settings!
+[04Apr2026 03:35:14.577] [Thread-2/INFO] [Spartan Weaponry/]: Updating config settings!
+[04Apr2026 03:35:14.598] [modloading-worker-0/INFO] [com.lootintegrations.LootintegrationsMod/]: lootintegrations mod initialized
+[04Apr2026 03:35:14.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[04Apr2026 03:35:14.612] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[04Apr2026 03:35:14.666] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[04Apr2026 03:35:14.677] [modloading-worker-0/INFO] [Spartan Weaponry/]: Setting up Spartan Weaponry!
+[04Apr2026 03:35:14.772] [main/INFO] [journeymap/]: Initializing Packet Registries
+[04Apr2026 03:35:14.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[04Apr2026 03:35:14.787] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[04Apr2026 03:35:14.822] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.53 Target: null
+[04Apr2026 03:35:14.825] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Apr2026 03:35:14.832] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[04Apr2026 03:35:14.833] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[04Apr2026 03:35:14.833] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[04Apr2026 03:35:14.834] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[04Apr2026 03:35:14.907] [main/INFO] [Moonlight/]: Initialized color sets in 38ms
+[04Apr2026 03:35:14.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[04Apr2026 03:35:14.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://api.modrinth.com/updates/moonlight/forge_updates.json
+[04Apr2026 03:35:15.077] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.20-2.16.28 Target: 1.20-2.16.28-forge
+[04Apr2026 03:35:17.309] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Apr2026 03:35:18.814] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor-de-gays/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/assets/.mcassetsroot' uses unexpected schema
+[04Apr2026 03:35:18.814] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidor-de-gays/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23235!/data/.mcassetsroot' uses unexpected schema
+[04Apr2026 03:35:19.493] [main/INFO] [bettervillage/]: StructureSet modified for minecraft:village : Now using custom village configuration (can be disabled in the better villages config: boolean.villages.enabled_custom_config).
+[04Apr2026 03:35:21.601] [main/INFO] [Spartan Weaponry/]: Finished registering commands for Spartan Weaponry!
+[04Apr2026 03:35:21.623] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[04Apr2026 03:35:21.807] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:cooked_trilocararis as it is missing following references: alexscaves:cooked_trilocaris (from alexscavesdelight-1.0.27-final.jar)
+[04Apr2026 03:35:21.809] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag origins:meat as it is missing following references: alexscavesdelight:cooked_sea_pig (from alexscavesdelight-1.0.27-final.jar), 
+	alexscavesdelight:dried_tripodfish (from alexscavesdelight-1.0.27-final.jar)
+[04Apr2026 03:35:21.811] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:meat as it is missing following references: alexscavesdelight:cooked_sea_pig (from alexscavesdelight-1.0.27-final.jar), 
+	alexscavesdelight:dried_tripodfish (from alexscavesdelight-1.0.27-final.jar)
+[04Apr2026 03:35:21.811] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:dinosaur_chop_raw as it is missing following references: alexscaves:dinosaur_chop_raw (from alexscavesdelight-1.0.27-final.jar)
+[04Apr2026 03:35:21.813] [Worker-Main-2/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:dinosaur_chop_cooked as it is missing following references: alexscaves:dinosaur_chop_cooked (from alexscavesdelight-1.0.27-final.jar)
+[04Apr2026 03:35:22.417] [Worker-Main-3/INFO] [Spartan Weaponry/]: Adding Diamond Weapons to the End City Treasure Loot Table!
+[04Apr2026 03:35:22.430] [Worker-Main-3/INFO] [Spartan Weaponry/]: Adding Iron Weapons to the Village Weaponsmith Loot Table!
+[04Apr2026 03:35:22.536] [Worker-Main-3/INFO] [Spartan Weaponry/]: Adding Longbow and Heavy Crossbow related loot to the Village Fletcher Loot Table!
+[04Apr2026 03:35:22.735] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[04Apr2026 03:35:22.735] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_blasting_electrum_weapons as it's serializer returned null
+[04Apr2026 03:35:22.757] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[04Apr2026 03:35:22.757] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_smelting_platinum_weapons as it's serializer returned null
+[04Apr2026 03:35:22.773] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexscavesdelight:cutting/pewen_hanging_sing
+com.google.gson.JsonSyntaxException: Unknown item 'alexscaves:pewen_hanging_sing'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.readIngredients(CuttingBoardRecipe.java:195) ~[FarmersDelight-1.20.1-1.2.11.jar%23191!/:1.20.1-1.2.11]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:172) ~[FarmersDelight-1.20.1-1.2.11.jar%23191!/:1.20.1-1.2.11]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.m_6729_(CuttingBoardRecipe.java:164) ~[FarmersDelight-1.20.1-1.2.11.jar%23191!/:1.20.1-1.2.11]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Apr2026 03:35:22.777] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[04Apr2026 03:35:22.777] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_blasting_aluminum_weapons as it's serializer returned null
+[04Apr2026 03:35:22.807] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[04Apr2026 03:35:22.808] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_blasting_bronze_weapons as it's serializer returned null
+[04Apr2026 03:35:22.819] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[04Apr2026 03:35:22.820] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_blasting_steel_weapons as it's serializer returned null
+[04Apr2026 03:35:22.824] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[04Apr2026 03:35:22.824] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_smelting_invar_weapons as it's serializer returned null
+[04Apr2026 03:35:22.833] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[04Apr2026 03:35:22.833] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_smelting_constantan_weapons as it's serializer returned null
+[04Apr2026 03:35:22.863] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[04Apr2026 03:35:22.863] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_smelting_nickel_weapons as it's serializer returned null
+[04Apr2026 03:35:22.864] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/electrum" Skipping...
+[04Apr2026 03:35:22.864] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:electrum_nugget_from_smelting_electrum_weapons as it's serializer returned null
+[04Apr2026 03:35:22.901] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[04Apr2026 03:35:22.901] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_smelting_lead_weapons as it's serializer returned null
+[04Apr2026 03:35:22.926] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/steel" Skipping...
+[04Apr2026 03:35:22.926] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:steel_nugget_from_smelting_steel_weapons as it's serializer returned null
+[04Apr2026 03:35:22.939] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexsdelight:barbecue_on_a_stick
+com.google.gson.JsonSyntaxException: Unknown item 'amfd:singular_cooked_moose_rib'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_44275_(ShapelessRecipe.java:104) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:89) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Apr2026 03:35:22.944] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[04Apr2026 03:35:22.944] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_smelting_silver_weapons as it's serializer returned null
+[04Apr2026 03:35:22.960] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[04Apr2026 03:35:22.960] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_blasting_copper_weapons as it's serializer returned null
+[04Apr2026 03:35:22.961] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/platinum" Skipping...
+[04Apr2026 03:35:22.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:platinum_nugget_from_blasting_platinum_weapons as it's serializer returned null
+[04Apr2026 03:35:22.963] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/constantan" Skipping...
+[04Apr2026 03:35:22.963] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:constantan_nugget_from_blasting_constantan_weapons as it's serializer returned null
+[04Apr2026 03:35:22.978] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/lead" Skipping...
+[04Apr2026 03:35:22.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:lead_nugget_from_blasting_lead_weapons as it's serializer returned null
+[04Apr2026 03:35:22.980] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe alexscavesdelight:cutting/thornwood_hanging_sing
+com.google.gson.JsonSyntaxException: Unknown item 'alexscaves:thornwood_hanging_sing'
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151280_(ShapedRecipe.java:292) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151278_(ShapedRecipe.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43919_(Ingredient.java:219) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:27) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:148) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_288218_(Ingredient.java:194) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.Ingredient.m_43917_(Ingredient.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.readIngredients(CuttingBoardRecipe.java:195) ~[FarmersDelight-1.20.1-1.2.11.jar%23191!/:1.20.1-1.2.11]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.fromJson(CuttingBoardRecipe.java:172) ~[FarmersDelight-1.20.1-1.2.11.jar%23191!/:1.20.1-1.2.11]
+	at vectorwing.farmersdelight.common.crafting.CuttingBoardRecipe$Serializer.m_6729_(CuttingBoardRecipe.java:164) ~[FarmersDelight-1.20.1-1.2.11.jar%23191!/:1.20.1-1.2.11]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23240!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[04Apr2026 03:35:22.988] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/bronze" Skipping...
+[04Apr2026 03:35:22.988] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:bronze_nugget_from_smelting_bronze_weapons as it's serializer returned null
+[04Apr2026 03:35:22.989] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/copper" Skipping...
+[04Apr2026 03:35:22.989] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:copper_nugget_from_smelting_copper_weapons as it's serializer returned null
+[04Apr2026 03:35:22.990] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[04Apr2026 03:35:22.990] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_smelting_tin_weapons as it's serializer returned null
+[04Apr2026 03:35:23.028] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/nickel" Skipping...
+[04Apr2026 03:35:23.029] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:nickel_nugget_from_blasting_nickel_weapons as it's serializer returned null
+[04Apr2026 03:35:23.039] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/invar" Skipping...
+[04Apr2026 03:35:23.040] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:invar_nugget_from_blasting_invar_weapons as it's serializer returned null
+[04Apr2026 03:35:23.046] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/tin" Skipping...
+[04Apr2026 03:35:23.046] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:tin_nugget_from_blasting_tin_weapons as it's serializer returned null
+[04Apr2026 03:35:23.051] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/aluminum" Skipping...
+[04Apr2026 03:35:23.051] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:aluminum_nugget_from_smelting_aluminum_weapons as it's serializer returned null
+[04Apr2026 03:35:23.051] [main/INFO] [Spartan Weaponry/]: Empty result tag:"forge:nuggets/silver" Skipping...
+[04Apr2026 03:35:23.051] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe spartanweaponry:silver_nugget_from_blasting_silver_weapons as it's serializer returned null
+[04Apr2026 03:35:23.058] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[04Apr2026 03:35:23.059] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23235!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[04Apr2026 03:35:23.093] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[04Apr2026 03:35:23.109] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[04Apr2026 03:35:23.179] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[04Apr2026 03:35:23.200] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[04Apr2026 03:35:23.331] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2762 advancements
+[04Apr2026 03:35:23.351] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
+[04Apr2026 03:35:23.417] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 10 curio slots
+[04Apr2026 03:35:23.427] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[04Apr2026 03:35:23.428] [main/ERROR] [bettervillage/]: More Villagers compatibility is not enabled for Better Village and More Villagers is present in your mod list.
+     - Please install the datapack for better compatibility between Better Villages and More Villagers.
+     - You can find the datapack URL in the `compatibility` section of the Better Villages description.
+     - URL=https://www.curseforge.com/minecraft/mc-mods/better-village-forge
+[04Apr2026 03:35:24.677] [main/INFO] [Spartan Weaponry/]: Finished initialising Weapon Traits & Attributes! Took 7.273438ms
+[04Apr2026 03:35:24.717] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:24.977] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:24.985] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:24.991] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:24.997] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.003] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.013] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.020] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.026] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.032] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.037] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.043] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.049] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.053] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.058] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.063] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.068] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.072] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.077] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.082] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.087] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.093] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.097] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.100] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.103] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.107] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.110] [main/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:35:25.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[04Apr2026 03:35:25.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Apr2026 03:35:25.270] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Apr2026 03:35:25.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Apr2026 03:35:25.457] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[04Apr2026 03:35:25.505] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[04Apr2026 03:35:25.631] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04Apr2026 03:35:25.631] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[04Apr2026 03:35:25.631] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04Apr2026 03:35:25.632] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[04Apr2026 03:35:25.649] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[04Apr2026 03:35:25.651] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[04Apr2026 03:35:25.913] [Server thread/INFO] [FTB Teams/]: loaded team data: 2 known players, 2 teams total
+[04Apr2026 03:35:25.934] [Server thread/INFO] [Framework/]: Loading server configs...
+[04Apr2026 03:35:25.946] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Apr2026 03:35:33.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Apr2026 03:35:38.414] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.424] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.450] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.456] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.462] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.474] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.492] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.495] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.499] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.502] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:38.514] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:39.316] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:39.412] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:40.124] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:40.132] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Apr2026 03:35:40.633] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[04Apr2026 03:35:41.134] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
+[04Apr2026 03:35:41.315] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8183 ms
+[04Apr2026 03:35:41.315] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.669s)! For help, type "help"
+[04Apr2026 03:35:41.368] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Apr2026 03:35:41.434] [Server thread/INFO] [FTB Quests/]: Loading quests from /workspaces/servidor-de-gays/servidor_minecraft/config/ftbquests/quests
+[04Apr2026 03:35:41.466] [Server thread/INFO] [FTB Quests/]: Loaded 1 chapter groups, 1 chapters, 39 quests, 1 reward tables
+[04Apr2026 03:36:01.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ihlak[/127.34.93.63:58767] logged in with entity id 86 at (861.1140391565942, 62.07326432466507, -2822.2682573008233)
+[04Apr2026 03:36:01.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak joined the game
+[04Apr2026 03:36:03.589] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2709ms or 54 ticks behind
+[04Apr2026 03:36:04.942] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:36:24.347] [Worker-Main-2/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[04Apr2026 03:36:24.483] [Worker-Main-2/INFO] [bettercaves/]: CREATING AND INIT'ING MASTER CONTROLLER...
+[04Apr2026 03:36:36.136] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:36:42.147] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:36:52.921] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:36:57.135] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:36:57.192] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:36:59.434] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:37:42.083] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:37:52.283] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:37:59.882] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:38:15.084] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:38:27.384] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:38:37.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak has made the advancement [Smoke On The Water]
+[04Apr2026 03:39:15.834] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:39:43.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:39:46.484] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:40:02.985] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:40:05.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: < > .DESSESSOP
+[04Apr2026 03:40:08.236] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:40:29.732] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:40:31.234] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:40:33.433] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:40:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak has made the advancement [Custom Backpacks]
+[04Apr2026 03:42:54.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak was slain by Skeleton
+[04Apr2026 03:42:54.405] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for ihlak with unique ID travelersbackpack.standard_04.04.2026-03.42.54.dat
+[04Apr2026 03:42:56.441] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:42:57.343] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:43:06.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:14.281] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:33.934] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:36.583] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:43:51.482] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:56.381] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:58.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:59.632] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:43:59.831] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:44:30.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak has made the advancement [Hammer Time!]
+[04Apr2026 03:46:25.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak has made the advancement [Blunt-force Trauma]
+[04Apr2026 03:47:41.231] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: BUILDER spawned at BlockPos{x=24, y=257, z=-3327}
+[04Apr2026 03:47:41.657] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Juanfe[/127.98.175.175:37293] logged in with entity id 6665 at (31.909360432238866, 67.0, -3158.6771552479995)
+[04Apr2026 03:47:41.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Juanfe joined the game
+[04Apr2026 03:47:42.397] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:47:42.459] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:47:42.626] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:47:43.040] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:47:45.691] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:48:51.987] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:48:57.583] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:49:12.453] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ihlak was kicked for floating too long!
+[04Apr2026 03:49:12.503] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ihlak lost connection: Flying is not enabled on this server
+[04Apr2026 03:49:12.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak left the game
+[04Apr2026 03:49:21.013] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ihlak[/127.34.93.63:33879] logged in with entity id 7409 at (86.82969171882574, 112.16017123466065, -3343.77521566495)
+[04Apr2026 03:49:21.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak joined the game
+[04Apr2026 03:49:21.164] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:49:21.208] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:49:24.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak fell from a high place
+[04Apr2026 03:49:24.462] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for ihlak with unique ID travelersbackpack.standard_04.04.2026-03.49.24.dat
+[04Apr2026 03:49:26.357] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:49:26.487] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:49:26.938] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:49:42.611] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:49:51.387] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:49:51.433] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:50:02.433] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:50:07.785] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:50:11.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ihlak: Teleported Juanfe to ihlak]
+[04Apr2026 03:50:11.391] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:50:38.984] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:51:12.510] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:51:25.883] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:52:12.533] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:52:13.432] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:52:44.205] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: < > 
+[04Apr2026 03:52:46.335] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:52:58.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Juanfe> stop fukin me, bastard
+[04Apr2026 03:53:03.583] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:53:14.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ihlak: Teleported Juanfe to ihlak]
+[04Apr2026 03:53:15.633] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:53:33.583] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:53:54.582] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 03:53:59.183] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:54:13.282] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:54:51.283] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:54:53.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ihlak: Teleported Juanfe to ihlak]
+[04Apr2026 03:54:56.087] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:55:10.132] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:55:26.532] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:55:26.633] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:56:20.682] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:56:23.183] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:56:24.034] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:56:34.334] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:56:44.486] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:56:54.891] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:56:59.537] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[04Apr2026 03:57:39.936] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:57:41.034] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:57:56.135] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 03:58:07.133] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:58:09.834] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 03:58:09.885] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:59:23.134] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:59:47.684] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 03:59:48.181] [Server thread/INFO] [com.lgow.endofherobrine.entity.herobrine.AbstractHerobrine/]: LURKER spawned at BlockPos{x=106, y=88, z=-3361}
+[04Apr2026 04:00:10.683] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 04:00:13.034] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 04:00:23.036] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 04:01:06.283] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 04:01:09.782] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 04:01:23.180] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cindie'/5541, l='ServerLevel[world]', x=8.19, y=80.00, z=-3328.54] died, message: 'Cindie hit the ground too hard'
+[04Apr2026 04:01:23.180] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Cindie'/5541, l='ServerLevel[world]', x=8.19, y=80.00, z=-3328.54] died: Cindie fell from a high place
+[04Apr2026 04:02:16.152] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ihlak lost connection: Disconnected
+[04Apr2026 04:02:16.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak left the game
+[04Apr2026 04:02:23.300] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Juanfe lost connection: IT'S YOUR FAULT
+[04Apr2026 04:02:23.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Juanfe left the game
+[04Apr2026 04:02:40.146] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Juanfe[/127.98.175.175:35979] logged in with entity id 11781 at (115.0, 96.0, -3348.0)
+[04Apr2026 04:02:40.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Juanfe joined the game
+[04Apr2026 04:03:02.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Juanfe has made the advancement [Ant-Agonizer]
+[04Apr2026 04:03:16.984] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 04:03:18.179] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 04:03:30.985] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 04:03:54.117] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ihlak[/127.34.93.63:42241] logged in with entity id 12789 at (122.44489633678025, 124.0, -3362.166001112843)
+[04Apr2026 04:03:54.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak joined the game
+[04Apr2026 04:04:48.735] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:the_entity but it was marked as removed already
+[04Apr2026 04:05:21.832] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:hallucination but it was marked as removed already
+[04Apr2026 04:05:26.382] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:door_place but it was marked as removed already
+[04Apr2026 04:05:27.636] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity itsnotreal:invisible_corrupter but it was marked as removed already
+[04Apr2026 04:05:36.355] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: ihlak lost connection: Disconnected
+[04Apr2026 04:05:36.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ihlak left the game
+[04Apr2026 04:05:36.451] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[04Apr2026 04:05:38.098] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Juanfe lost connection: Disconnected
+[04Apr2026 04:05:38.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Juanfe left the game
+[04Apr2026 04:05:42.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Apr2026 04:05:42.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Apr2026 04:05:42.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Apr2026 04:05:42.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Apr2026 04:05:42.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:brickways
+[04Apr2026 04:05:42.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[04Apr2026 04:05:42.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:snowy_bridges
+[04Apr2026 04:05:42.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:tunnels
+[04Apr2026 04:05:42.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/itsnotreal:itsnotreal_dimension
+[04Apr2026 04:05:42.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:answer_dimension
+[04Apr2026 04:05:42.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:the_slip
+[04Apr2026 04:05:42.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:what_once_was
+[04Apr2026 04:05:42.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:wonderland
+[04Apr2026 04:05:42.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:remembrance
+[04Apr2026 04:05:42.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:bedrock_hallways
+[04Apr2026 04:05:42.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:endless_library
+[04Apr2026 04:05:42.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:dreamworld
+[04Apr2026 04:05:42.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:sequence
+[04Apr2026 04:05:42.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:winter_wonderland
+[04Apr2026 04:05:42.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:reservoir
+[04Apr2026 04:05:42.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:torture
+[04Apr2026 04:05:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:depths
+[04Apr2026 04:05:42.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/itsnotreal:its_your_fault
+[04Apr2026 04:05:42.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:the_vault
+[04Apr2026 04:05:42.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:catacombs
+[04Apr2026 04:05:42.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:corners
+[04Apr2026 04:05:42.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:endless_house
+[04Apr2026 04:05:42.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:maze
+[04Apr2026 04:05:42.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:inconsistency
+[04Apr2026 04:05:42.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Apr2026 04:05:42.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:endless_field
+[04Apr2026 04:05:42.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Apr2026 04:05:42.686] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:abyss
+[04Apr2026 04:05:42.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:jungle_warehouse
+[04Apr2026 04:05:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Apr2026 04:05:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (brickways): All chunks are saved
+[04Apr2026 04:05:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[04Apr2026 04:05:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (snowy_bridges): All chunks are saved
+[04Apr2026 04:05:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tunnels): All chunks are saved
+[04Apr2026 04:05:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (itsnotreal_dimension): All chunks are saved
+[04Apr2026 04:05:42.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (answer_dimension): All chunks are saved
+[04Apr2026 04:05:42.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_slip): All chunks are saved
+[04Apr2026 04:05:42.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (what_once_was): All chunks are saved
+[04Apr2026 04:05:42.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wonderland): All chunks are saved
+[04Apr2026 04:05:42.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (remembrance): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bedrock_hallways): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endless_library): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dreamworld): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (sequence): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (winter_wonderland): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reservoir): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (torture): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (depths): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (its_your_fault): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_vault): All chunks are saved
+[04Apr2026 04:05:42.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (catacombs): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (corners): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endless_house): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (maze): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (inconsistency): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endless_field): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abyss): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jungle_warehouse): All chunks are saved
+[04Apr2026 04:05:42.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Apr2026 04:05:43.017] [Server thread/INFO] [Framework/]: Unloading server configs...
+[04Apr2026 04:05:43.018] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[04Apr2026 04:05:43.020] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[04Apr2026 04:05:43.021] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
