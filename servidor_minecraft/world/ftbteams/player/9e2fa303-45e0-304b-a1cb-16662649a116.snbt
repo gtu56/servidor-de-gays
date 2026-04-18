@@ -1,0 +1,17 @@
+{
+	id: "9e2fa303-45e0-304b-a1cb-16662649a116"
+	type: "player"
+	player_name: "Tuanfe"
+	ranks: {
+		9e2fa303-45e0-304b-a1cb-16662649a116: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Tuanfe"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF9B59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

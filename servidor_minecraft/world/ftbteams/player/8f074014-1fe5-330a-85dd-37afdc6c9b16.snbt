@@ -1,0 +1,17 @@
+{
+	id: "8f074014-1fe5-330a-85dd-37afdc6c9b16"
+	type: "player"
+	player_name: "Soulking"
+	ranks: {
+		8f074014-1fe5-330a-85dd-37afdc6c9b16: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Soulking"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFA859"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
